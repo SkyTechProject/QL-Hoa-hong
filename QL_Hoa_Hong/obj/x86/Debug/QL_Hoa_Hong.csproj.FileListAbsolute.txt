@@ -1,0 +1,16 @@
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\bin\Debug\QL_Hoa_Hong.exe.config
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\bin\Debug\QL_Hoa_Hong.exe
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\bin\Debug\QL_Hoa_Hong.pdb
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.csprojResolveAssemblyReference.cache
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.frm_Main.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.frm_New_hoadon.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.frm_QLChinhanh.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.frm_Thongtindonvi.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.Properties.Resources.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.XtraForm1.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.XtraForm2.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.XtraForm3.resources
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.csproj.GenerateResource.Cache
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.exe.licenses
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.exe
+D:\UDEMY\ASP WebForm\QL-Hoa-hong\QL_Hoa_Hong\obj\x86\Debug\QL_Hoa_Hong.pdb
