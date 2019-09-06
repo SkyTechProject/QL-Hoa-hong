@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_DSHUONGDA" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-25EIRSA\SQLEXPRESS;Initial Catalog=QL_DSHUONGDA;Integrated Security=True" SettingsObjectName="QL_Hoa_Hong.Properties.Settings" SettingsPropertyName="QL_DSHUONGDAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Thongtindonvi" Member="Thongtindonvis">
+    <Type Name="Thongtindonvi">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tendonvi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Nguoidaidien" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Chucvu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Diachi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Sodienthoai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Website" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Logo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

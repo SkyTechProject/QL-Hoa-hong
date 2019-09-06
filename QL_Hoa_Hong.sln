@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_Hoa_Hong", "QL_Hoa_Hong\QL_Hoa_Hong.csproj", "{F11AC0FF-DAB8-4094-8E7F-B08A807A0938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11AC0FF-DAB8-4094-8E7F-B08A807A0938}.Debug|x86.ActiveCfg = Debug|x86
+		{F11AC0FF-DAB8-4094-8E7F-B08A807A0938}.Debug|x86.Build.0 = Debug|x86
+		{F11AC0FF-DAB8-4094-8E7F-B08A807A0938}.Release|x86.ActiveCfg = Release|x86
+		{F11AC0FF-DAB8-4094-8E7F-B08A807A0938}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
