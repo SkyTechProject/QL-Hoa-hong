@@ -51,6 +51,8 @@
             this.but_Save = new DevExpress.XtraEditors.SimpleButton();
             this.but_hinhanh = new DevExpress.XtraEditors.SimpleButton();
             this.xtraOpenFileDialog1 = new DevExpress.XtraEditors.XtraOpenFileDialog(this.components);
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.cmb_TinhTrang = new DevExpress.XtraEditors.ImageComboBoxEdit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_MaChiNhanh.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_TenChiNhanh.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_DiaChi.Properties)).BeginInit();
@@ -60,6 +62,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt_Chucvu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Website.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Logo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_TinhTrang.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -69,16 +72,16 @@
             this.labelControl1.Location = new System.Drawing.Point(66, 66);
             this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(55, 16);
+            this.labelControl1.Size = new System.Drawing.Size(76, 16);
             this.labelControl1.TabIndex = 9;
-            this.labelControl1.Text = "Mã đơn vị";
+            this.labelControl1.Text = "Mã chi nhánh";
             // 
-            // txt_Madonvi
+            // txt_MaChiNhanh
             // 
             this.txt_MaChiNhanh.Enabled = false;
             this.txt_MaChiNhanh.Location = new System.Drawing.Point(172, 63);
             this.txt_MaChiNhanh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_MaChiNhanh.Name = "txt_Madonvi";
+            this.txt_MaChiNhanh.Name = "txt_MaChiNhanh";
             this.txt_MaChiNhanh.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.5F);
             this.txt_MaChiNhanh.Properties.Appearance.Options.UseFont = true;
             this.txt_MaChiNhanh.Size = new System.Drawing.Size(235, 22);
@@ -91,15 +94,15 @@
             this.labelControl2.Location = new System.Drawing.Point(66, 96);
             this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(60, 16);
+            this.labelControl2.Size = new System.Drawing.Size(81, 16);
             this.labelControl2.TabIndex = 11;
-            this.labelControl2.Text = "Tên đơn vị";
+            this.labelControl2.Text = "Tên chi nhánh";
             // 
-            // txt_Tendonvi
+            // txt_TenChiNhanh
             // 
             this.txt_TenChiNhanh.Location = new System.Drawing.Point(172, 93);
             this.txt_TenChiNhanh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_TenChiNhanh.Name = "txt_Tendonvi";
+            this.txt_TenChiNhanh.Name = "txt_TenChiNhanh";
             this.txt_TenChiNhanh.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.5F);
             this.txt_TenChiNhanh.Properties.Appearance.Options.UseFont = true;
             this.txt_TenChiNhanh.Size = new System.Drawing.Size(396, 22);
@@ -116,11 +119,11 @@
             this.labelControl3.TabIndex = 13;
             this.labelControl3.Text = "Địa chỉ";
             // 
-            // txt_Diachi
+            // txt_DiaChi
             // 
             this.txt_DiaChi.Location = new System.Drawing.Point(172, 183);
             this.txt_DiaChi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_DiaChi.Name = "txt_Diachi";
+            this.txt_DiaChi.Name = "txt_DiaChi";
             this.txt_DiaChi.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.5F);
             this.txt_DiaChi.Properties.Appearance.Options.UseFont = true;
             this.txt_DiaChi.Size = new System.Drawing.Size(396, 22);
@@ -175,15 +178,15 @@
             this.labelControl6.Location = new System.Drawing.Point(66, 126);
             this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(82, 16);
+            this.labelControl6.Size = new System.Drawing.Size(78, 16);
             this.labelControl6.TabIndex = 19;
-            this.labelControl6.Text = "Người đại diện";
+            this.labelControl6.Text = "Người quản lý";
             // 
-            // txt_Nguoidaidien
+            // txt_NguoiQuanLy
             // 
             this.txt_NguoiQuanLy.Location = new System.Drawing.Point(172, 123);
             this.txt_NguoiQuanLy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_NguoiQuanLy.Name = "txt_Nguoidaidien";
+            this.txt_NguoiQuanLy.Name = "txt_NguoiQuanLy";
             this.txt_NguoiQuanLy.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.5F);
             this.txt_NguoiQuanLy.Properties.Appearance.Options.UseFont = true;
             this.txt_NguoiQuanLy.Size = new System.Drawing.Size(291, 22);
@@ -263,7 +266,7 @@
             this.but_Exit.Text = "Đóng";
             this.but_Exit.Click += new System.EventHandler(this.but_Exit_Click);
             // 
-            // but_Update
+            // but_Save
             // 
             this.but_Save.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.but_Save.Appearance.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -280,10 +283,10 @@
             this.but_Save.LookAndFeel.SkinName = "Office 2010 Black";
             this.but_Save.LookAndFeel.UseDefaultLookAndFeel = false;
             this.but_Save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.but_Save.Name = "but_Update";
+            this.but_Save.Name = "but_Save";
             this.but_Save.Size = new System.Drawing.Size(110, 36);
             this.but_Save.TabIndex = 10;
-            this.but_Save.Text = "Cập nhật";
+            this.but_Save.Text = "Lưu";
             this.but_Save.Click += new System.EventHandler(this.but_Update_Click);
             // 
             // but_hinhanh
@@ -309,11 +312,33 @@
             // 
             this.xtraOpenFileDialog1.FileName = "xtraOpenFileDialog1";
             // 
+            // labelControl9
+            // 
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.labelControl9.Appearance.Options.UseFont = true;
+            this.labelControl9.Location = new System.Drawing.Point(66, 306);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(59, 16);
+            this.labelControl9.TabIndex = 26;
+            this.labelControl9.Text = "Tình trạng";
+            // 
+            // cmb_TinhTrang
+            // 
+            this.cmb_TinhTrang.Location = new System.Drawing.Point(172, 305);
+            this.cmb_TinhTrang.Name = "cmb_TinhTrang";
+            this.cmb_TinhTrang.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmb_TinhTrang.Size = new System.Drawing.Size(291, 20);
+            this.cmb_TinhTrang.TabIndex = 27;
+            // 
             // frm_Thongtindonvi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1183, 699);
+            this.Controls.Add(this.cmb_TinhTrang);
+            this.Controls.Add(this.labelControl9);
             this.Controls.Add(this.but_hinhanh);
             this.Controls.Add(this.but_Exit);
             this.Controls.Add(this.but_Save);
@@ -336,7 +361,7 @@
             this.Controls.Add(this.txt_MaChiNhanh);
             this.Name = "frm_Thongtindonvi";
             this.ShowIcon = false;
-            this.Text = "Thông tin đơn vị";
+            this.Text = "Thêm mới chi nhánh";
             this.Load += new System.EventHandler(this.frm_Thongtindonvi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txt_MaChiNhanh.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_TenChiNhanh.Properties)).EndInit();
@@ -347,6 +372,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt_Chucvu.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Website.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Logo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_TinhTrang.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,25 +381,27 @@
         #endregion
 
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit txt_Madonvi;
+        private DevExpress.XtraEditors.TextEdit txt_MaChiNhanh;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit txt_Tendonvi;
+        private DevExpress.XtraEditors.TextEdit txt_TenChiNhanh;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit txt_Diachi;
+        private DevExpress.XtraEditors.TextEdit txt_DiaChi;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit txt_Sodienthoai;
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.TextEdit txt_Email;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.TextEdit txt_Nguoidaidien;
+        private DevExpress.XtraEditors.TextEdit txt_NguoiQuanLy;
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.TextEdit txt_Chucvu;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.TextEdit txt_Website;
         private DevExpress.XtraEditors.PictureEdit pic_Logo;
         private DevExpress.XtraEditors.SimpleButton but_Exit;
-        private DevExpress.XtraEditors.SimpleButton but_Update;
+        private DevExpress.XtraEditors.SimpleButton but_Save;
         private DevExpress.XtraEditors.SimpleButton but_hinhanh;
         private DevExpress.XtraEditors.XtraOpenFileDialog xtraOpenFileDialog1;
+        private DevExpress.XtraEditors.LabelControl labelControl9;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cmb_TinhTrang;
     }
 }
