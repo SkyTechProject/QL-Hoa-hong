@@ -52,7 +52,7 @@
             this.but_hinhanh = new DevExpress.XtraEditors.SimpleButton();
             this.xtraOpenFileDialog1 = new DevExpress.XtraEditors.XtraOpenFileDialog(this.components);
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.cmb_TinhTrang = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cmb_TinhTrang = new DevExpress.XtraEditors.ComboBoxEdit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_MaChiNhanh.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_TenChiNhanh.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_DiaChi.Properties)).BeginInit();
@@ -241,7 +241,7 @@
             this.pic_Logo.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pic_Logo.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pic_Logo.Size = new System.Drawing.Size(176, 169);
-            this.pic_Logo.TabIndex = 24;
+            this.pic_Logo.TabIndex = 10;
             // 
             // but_Exit
             // 
@@ -262,7 +262,7 @@
             this.but_Exit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.but_Exit.Name = "but_Exit";
             this.but_Exit.Size = new System.Drawing.Size(110, 36);
-            this.but_Exit.TabIndex = 11;
+            this.but_Exit.TabIndex = 12;
             this.but_Exit.Text = "Đóng";
             this.but_Exit.Click += new System.EventHandler(this.but_Exit_Click);
             // 
@@ -285,7 +285,7 @@
             this.but_Save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.but_Save.Name = "but_Save";
             this.but_Save.Size = new System.Drawing.Size(110, 36);
-            this.but_Save.TabIndex = 10;
+            this.but_Save.TabIndex = 11;
             this.but_Save.Text = "Lưu";
             this.but_Save.Click += new System.EventHandler(this.but_Update_Click);
             // 
@@ -325,12 +325,15 @@
             // 
             // cmb_TinhTrang
             // 
-            this.cmb_TinhTrang.Location = new System.Drawing.Point(172, 305);
+            this.cmb_TinhTrang.Location = new System.Drawing.Point(172, 306);
             this.cmb_TinhTrang.Name = "cmb_TinhTrang";
             this.cmb_TinhTrang.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmb_TinhTrang.Properties.Items.AddRange(new object[] {
+            "Hoạt động",
+            "Tạm ngưng"});
             this.cmb_TinhTrang.Size = new System.Drawing.Size(291, 20);
-            this.cmb_TinhTrang.TabIndex = 27;
+            this.cmb_TinhTrang.TabIndex = 9;
             // 
             // frm_Thongtindonvi
             // 
@@ -402,6 +405,6 @@
         private DevExpress.XtraEditors.SimpleButton but_hinhanh;
         private DevExpress.XtraEditors.XtraOpenFileDialog xtraOpenFileDialog1;
         private DevExpress.XtraEditors.LabelControl labelControl9;
-        private DevExpress.XtraEditors.ImageComboBoxEdit cmb_TinhTrang;
+        private DevExpress.XtraEditors.ComboBoxEdit cmb_TinhTrang;
     }
 }
